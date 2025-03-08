@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "botania:livingrock"
+  },
+  "result": {
+    "id": "botania:livingrock_stairs"
+  }
+}
