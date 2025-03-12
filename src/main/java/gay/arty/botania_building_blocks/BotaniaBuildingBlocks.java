@@ -257,7 +257,6 @@ public class BotaniaBuildingBlocks {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("botania_building_blocks", () -> CreativeModeTab.builder()
         .title(Component.translatable("itemGroup.botania_building_blocks"))
-        .withTabsBefore(CreativeModeTabs.COMBAT)
         .icon(LIVINGROCK_BRICKS::toStack)
         .displayItems((parameters, output) -> {
             for (DeferredBlock<Block> block : ALL) {
