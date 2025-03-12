@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "botania:metamorphic_mesa_stone"
   },
   "result": {
-    "id": "botania:chiseled_metamorphic_mesa_bricks"
+    "id": "botania:chiseled_metamorphic_mesa_bricks",
+    "count": 1
   }
 }
